@@ -1,44 +1,39 @@
-def create_an_empty_array
-  element_array=[]
+def instantiate_new_array
+  instantiate_new_array = []
+  @my_new_array = instantiate_new_array
 end
 
-def create_an_array
-  
-  array=["arr"]
+def array_with_two_elements
+  array_with_two_elements = [1, 2]
+  @my_two_array = array_with_two_elements
 end
 
-def add_element_to_end_of_array(array, element)
-  end_array=["array","element"]
-end_array<<"symbol"
-  
+def first_element(my_first_element)
+  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
+  my_first_element = @taylor_swift.first
 end
 
-def add_element_to_start_of_array(start, end)
-  start_array=["arra","elemen"]
-  start_array.unshift=["start"]
-  
+def third_element(my_third_element)
+  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
+  my_third_element = @taylor_swift[2]
 end
 
-def remove_element_from_end_of_array(array)
-  
+def last_element(my_last_element)
+  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
+  my_last_element = @taylor_swift[-1]
 end
 
-def remove_element_from_start_of_array(array)
-  
+def first_element_with_array_methods(first_country)
+  @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  first_country = @south_east_asia.first
 end
 
-def retrieve_element_from_index(array, index_number)
-  
+def last_element_with_array_methods(last_country)
+  @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  last_country = @south_east_asia.last
 end
 
-def retrieve_first_element_from_array(array)
-  
-end
-
-def retrieve_last_element_from_array(array)
-  
-end
-
-def update_element_from_index(array, index_number, element)
-
+def length_of_array(length)
+  @programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
+  length = @programming_languages.length
 end
